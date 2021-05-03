@@ -12,6 +12,7 @@
 
 ## COMMANDS
 
+* [Actions](commands/actions.md)
 * [Permissions](commands/permissions.md)
 
 ## Holograms
