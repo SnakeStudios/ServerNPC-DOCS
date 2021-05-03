@@ -1,3 +1,7 @@
+---
+description: 'Description'
+---
+
 there is 5 type of action that can be used in the plugin
 
 msg: To send a message to player
