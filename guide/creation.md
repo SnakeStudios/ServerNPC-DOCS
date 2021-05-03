@@ -35,7 +35,7 @@ Said by Mineskin.
 
 It allow you to upload Skins without needing a Minecraft Account. Well, you can use the generated IDS in ServerNPC to create fantastics NPCs.
 
-![](../.gitbook/assets/image%20%285%29%20%281%29.png)
+![](../.gitbook/assets/image%20%285%29%20%282%29.png)
 
 {% hint style="info" %}
 /npc create test2 420161720
