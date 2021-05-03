@@ -14,11 +14,13 @@ There is 5 type of action that can be used in the plugin
 
 ## CMD - MOST READ:
 
-`/npc action (npc-name) add (true/false - Use by Console or Player) (none/permission - To set Permission) cmd:/say I'm %player% hello all` \(**true:** command will enter by console\) \(**'!'** permission can be use for negetive\) \(**%player%** is ServerNPC placeholder but placeholdersapi support\) \(**false:** player will enter the command\)
+* /npc action \(npc-name\) add \(true/false - Use by Console or Player\) \(none/permission - To set Permission\) cmd:/say I'm %player% hello all
+
+\(**true:** command will enter by console\) \(**'!'** permission can be use for negetive\) \(**%player%** is ServerNPC placeholder but placeholdersapi support\) \(**false:** player will enter the command\)
 
 ### CMD Exampel:
 
-Player will send greating to server by intracting the npc 
+Player will send greating to server by intracting the npc
 
 * /npc action test add false none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\) \(Permission matter because Player Need To have the permissions\)
 
@@ -38,7 +40,8 @@ Console give the player 1 grass block
 
 * /npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) msg:&aHi %player\_name% \(USE false HERE\) \('!' permission can be use for negetive\) \(%player% is ServerNPC placeholder but placeholdersapi support\)
 
-### MSG EXAMPEL:  
+### MSG EXAMPEL:
+
 Send greting to player by intracting the npc
 
 * /npc action test add false none msg:&aHi %player%
@@ -63,17 +66,20 @@ Here a cool way to add message
 
 Sound list can be found here: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html)
 
-### SOUND EXAMPEL:  
+### SOUND EXAMPEL:
+
 Play the sound for a player
 
 * /npc action test add false none sound:ENTITY\_VILLAGER\_YES
 
-## WAIT:  
+## WAIT:
+
 * /npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) wait:2000  
 
 \(USE false HERE\) \(It is in MILISECONDS - 2000 = 2 Second\) \(Only use negetive permission '!' or none - because it's throw a unwanted message\)
 
-### WAIT EXAMPEL:  
+### WAIT EXAMPEL:
+
 Make an action to be dalyaed by 2 second
 
 * /npc action test add false none wait:2000
@@ -101,7 +107,8 @@ Action:
 
 You need the ServerNPC BungeeCord Addon plugin to be instaled on bungee server \(no config needed for this plugin\) get it here: [https://www.spigotmc.org/resources/servernpc-bungeecord-addon.84094/](https://www.spigotmc.org/resources/servernpc-bungeecord-addon.84094/)
 
-### SERVER EXAMPEL:  
+### SERVER EXAMPEL:
+
 Send a player to survival
 
 * /npc action test add false none server:survival
