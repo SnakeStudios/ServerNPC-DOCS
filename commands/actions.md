@@ -1,20 +1,20 @@
 ---
-description: Actions.
+description: 'ServerNPC: How actions works'
 ---
 
 # Actions
 
-there is 5 type of action that can be used in the plugin
+There is 5 type of action that can be used in the plugin
 
-* msg: To send a message to player
-* cmd: To use a command
-* sound: To send a sound to player
-* wait: Delaying the action
-* server: To Connect a server
+* **msg:** To send a message to player
+* **cmd:** To use a command
+* **sound:** To send a sound to player
+* **wait:** Delaying the action
+* **server:** To Connect a server
 
 ## CMD - MOST READ:
 
-`/npc action (npc-name) add (true/false - Use by Console or Player) (none/permission - To set Permission) cmd:/say I'm %player% hello all` \(true: command will enter by console\) \('!' permission can be use for negetive\) \(%player% is ServerNPC placeholder but placeholdersapi support\) \(false: player will enter the command\)
+`/npc action (npc-name) add (true/false - Use by Console or Player) (none/permission - To set Permission) cmd:/say I'm %player% hello all` \(**true:** command will enter by console\) \(**'!'** permission can be use for negetive\) \(**%player%** is ServerNPC placeholder but placeholdersapi support\) \(**false:** player will enter the command\)
 
 ### CMD Exampel:
 
