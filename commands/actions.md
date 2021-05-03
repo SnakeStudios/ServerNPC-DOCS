@@ -18,68 +18,71 @@ There is 5 type of action that can be used in the plugin
 
 ### CMD Exampel:
 
-player will send greating to server by intracting the npc /npc action test add false none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\) \(Permission matter because Player Need To have the permissions\)
+Player will send greating to server by intracting the npc 
 
-player will send greating to server by intracting the npc but need permission you can give 'say.hello' to players that you don't want to intract with npc
+* /npc action test add false none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\) \(Permission matter because Player Need To have the permissions\)
 
-/npc action test add say.hello none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\)
+Player will send greating to server by intracting the npc but need permission you can give 'say.hello' to players that you don't want to intract with npc
 
-player will send greating to server by intracting the npc but most not have the need permission you can give 'say.hello' to players that you don't want to intract with npc
+* /npc action test add say.hello none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\)
 
-/npc action test add !say.hello none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\)
+Player will send greating to server by intracting the npc but most not have the need permission you can give 'say.hello' to players that you don't want to intract with npc
 
-console give the player 1 grass block
+* /npc action test add !say.hello none cmd:/say I'm %player% hello all \('/' Is needed if the command enterer is player 'false'\)
 
-/npc action test add true none cmd:give %player% grass\_block 1 \(Permission Dosen't matter because Console have all the permissions - DON'T use the Negetive Permision '!'\) \('/' Is NOT NEEDED if the command enterer is Console 'true' - Console is not a player to use '/'\)
+Console give the player 1 grass block
 
-### MSG:
+* /npc action test add true none cmd:give %player% grass\_block 1 \(Permission Dosen't matter because Console have all the permissions - DON'T use the Negetive Permision '!'\) \('/' Is NOT NEEDED if the command enterer is Console 'true' - Console is not a player to use '/'\)
 
-/npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) msg:&aHi %player\_name% \(USE false HERE\) \('!' permission can be use for negetive\) \(%player% is ServerNPC placeholder but placeholdersapi support\)
+## MSG:
 
-MSG EXAMPEL:  
-send greting to player by intracting the npc
+* /npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) msg:&aHi %player\_name% \(USE false HERE\) \('!' permission can be use for negetive\) \(%player% is ServerNPC placeholder but placeholdersapi support\)
 
-/npc action test add false none msg:&aHi %player%
+### MSG EXAMPEL:  
+Send greting to player by intracting the npc
 
-send greting to player by intracting the npc but needs the permission 'say.hello' you can give 'say.hello' to players that you want to intract with npc
+* /npc action test add false none msg:&aHi %player%
 
-/npc action test add false say.hello msg:&aHi %player%
+Send greting to player by intracting the npc but needs the permission 'say.hello' you can give 'say.hello' to players that you want to intract with npc
 
-send greting to player by intracting the npc but most not have the permission 'say.hello' you can give 'say.hello' to players that you don't want to intract with npc
+* /npc action test add false say.hello msg:&aHi %player%
 
-/npc action test add false !say.hello msg:&aHi %player%
+Send greting to player by intracting the npc but most not have the permission 'say.hello' you can give 'say.hello' to players that you don't want to intract with npc
 
-here a cool way to add message
+* /npc action test add false !say.hello msg:&aHi %player%
+
+Here a cool way to add message
 
 * false\|none\|msg:&ahere a grass
 * true\|none\|cmd:give %player% grass\_block 1
 * false\|say.hello\|msg:&ahere a grass cool guy
 
-### SOUND:
+## SOUND:
 
-/npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) sound:ENTITY\_VILLAGER\_YES \(USE false HERE\) \(Only use negetive permission '!' or none - because it's throw a unwanted message\)
+* /npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) sound:ENTITY\_VILLAGER\_YES \(USE false HERE\) \(Only use negetive permission '!' or none - because it's throw a unwanted message\)
 
 Sound list can be found here: [https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html](https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html)
 
-SOUND EXAMPEL:  
-play the sound for a player
+### SOUND EXAMPEL:  
+Play the sound for a player
 
-/npc action test add false none sound:ENTITY\_VILLAGER\_YES
+* /npc action test add false none sound:ENTITY\_VILLAGER\_YES
 
-WAIT:  
-/npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) wait:2000  
+## WAIT:  
+* /npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) wait:2000  
+
 \(USE false HERE\) \(It is in MILISECONDS - 2000 = 2 Second\) \(Only use negetive permission '!' or none - because it's throw a unwanted message\)
 
-WAIT EXAMPEL:  
-make an action to be dalyaed by 2 second
+### WAIT EXAMPEL:  
+Make an action to be dalyaed by 2 second
 
-/npc action test add false none wait:2000
+* /npc action test add false none wait:2000
 
-you can make a player to bypass the delay by giving them a permission and negetiving it
+You can make a player to bypass the delay by giving them a permission and negetiving it
 
-/npc action test add false !say.hello wait:2000
+* /npc action test add false !say.hello wait:2000
 
-you can add delay between all actions
+You can add delay between all actions
 
 ```text
 Action:
@@ -90,27 +93,28 @@ Action:
 - false|say.hello|msg:&aHi &e&n%player%&a, You have a cool a permission that make you bypass the delay.
 ```
 
-### SERVER:
+## SERVER:
 
-/npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) server:survival  
+* /npc action \(npc-name\) add \(true/false - Use by Console\) \(none/permission - To set Permission\) server:survival  
+
 \(USE false HERE\) \(It is in MILISECONDS - 2000 = 2 Second\) \(!permission can be use for negetive but not recommended to set a permission\)
 
-you need the ServerNPC BungeeCord Addon plugin to be instaled on bungee server \(no config needed for this plugin\) get it here: [https://www.spigotmc.org/resources/servernpc-bungeecord-addon.84094/](https://www.spigotmc.org/resources/servernpc-bungeecord-addon.84094/)
+You need the ServerNPC BungeeCord Addon plugin to be instaled on bungee server \(no config needed for this plugin\) get it here: [https://www.spigotmc.org/resources/servernpc-bungeecord-addon.84094/](https://www.spigotmc.org/resources/servernpc-bungeecord-addon.84094/)
 
-SERVER EXAMPEL:  
-send a player to survival
+### SERVER EXAMPEL:  
+Send a player to survival
 
-/npc action test add false none server:survival
+* /npc action test add false none server:survival
 
-send player to Survival server but need the permission 'go survival' you can give 'go.survival' to players that you want to be sended to the Survival server
+Send player to Survival server but need the permission 'go survival' you can give 'go.survival' to players that you want to be sended to the Survival server
 
-/npc action test add false go.survival server:survival
+* /npc action test add false go.survival server:survival
 
-send player to Survival server but most not have the permission 'go.survival' you can give 'go.survival' to players that you don't want to be sended to survival
+Send player to Survival server but most not have the permission 'go.survival' you can give 'go.survival' to players that you don't want to be sended to survival
 
-/npc action test add false !go.survival server:survival
+* /npc action test add false !go.survival server:survival
 
-here a cool way to send a player to your survival server
+Here a cool way to send a player to your survival server
 
 ```text
 Action:
