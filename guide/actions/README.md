@@ -12,7 +12,7 @@ The first thing you need to know is that there are multiple actions. Such as.
 * Execute command
 * Send private message to player
 
-**I hear recommendations..** 
+**I hear recommendations..**
 
 ### Add new actions
 

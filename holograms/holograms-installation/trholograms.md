@@ -20,5 +20,3 @@ Download and install [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) 
 
 {% page-ref page="../holographics-display.md" %}
 
-
-

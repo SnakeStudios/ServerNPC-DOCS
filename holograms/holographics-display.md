@@ -28,7 +28,7 @@ EXAMPLE:
 {% endtab %}
 
 {% tab title="REMOVE COMMAND" %}
-```
+```text
 COMMAND:
 /npc holo {npc name} remove {id}
 
@@ -38,7 +38,7 @@ EXAMPLE:
 {% endtab %}
 
 {% tab title="LIST HOLOS" %}
-```
+```text
 /npc holo {npcName} list
 ```
 {% endtab %}
@@ -73,6 +73,4 @@ EXAMPLE:
 ![/npc holo npc1 add {medium}Hello &amp;e%player\_name%](../.gitbook/assets/image%20%2817%29.png)
 
 ![And here ya go.](../.gitbook/assets/image%20%283%29.png)
-
- 
 

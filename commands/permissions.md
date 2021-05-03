@@ -11,5 +11,3 @@ Default ServerNPC permissions
 * npc.admin - Use /npc commands
 * npc.notify  - See the news notifications.
 
-
-

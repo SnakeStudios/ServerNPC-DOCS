@@ -22,5 +22,3 @@ You don't need [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderap
 * Restart the server.
 * Enjoy it 😄!
 
-
-

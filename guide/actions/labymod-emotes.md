@@ -19,5 +19,3 @@ Add an Emote when click to an npc. Action type is "LabyEmote". [Click to see all
 /npc action {npcID} add false none labyEmote:THE\_FLOSS
 {% endhint %}
 
-
-
