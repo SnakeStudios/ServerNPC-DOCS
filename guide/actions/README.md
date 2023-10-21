@@ -24,10 +24,12 @@ For example, add the commnad "/say hello" to the npc
 
 On (ACTION) you can put these options. Without `()` please.
 
-* **cmd**:/say Hello
-* **server**:Survival
-* **msg**:\&aHello %player%
-* **wait**:1000 (It is in [MILISECONDS](https://www.google.com/search?q=1000+milliseconds+to+seconds\&oq=1000+milliseconds+to+seconds\&aqs=chrome..69i57.447j0j9\&sourceid=chrome\&ie=UTF-8))
+* **SPIGOT\_CMD**:/say Hello
+* **BUNGEE\_SEND**:Survival
+* **PLAYER\_MSG**:\&aHello %player%
+* **WAIT**:1000 (It is in [MILISECONDS](https://www.google.com/search?q=1000+milliseconds+to+seconds\&oq=1000+milliseconds+to+seconds\&aqs=chrome..69i57.447j0j9\&sourceid=chrome\&ie=UTF-8))
+* **PLAYER\_SOUND**:ENTITY\_VILLAGER\_YES
+* **BUNGEE\_CMD**:Survival ([Needs BungeeCord Addon](https://builtbybit.com/resources/servernpc-bungeecord-addon.17407/))
 
 ![/npc action npc1 add false none cmd:/say Hello!](<../../.gitbook/assets/image (4).png>)
 
