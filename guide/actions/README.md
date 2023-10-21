@@ -19,7 +19,7 @@ The first thing you need to know is that there are multiple actions. Such as.
 For example, add the commnad "/say hello" to the npc
 
 ```
-/npc action (NPC NAME) add (TRUE/FALSE - CONSOLE) (PERMISSIONS OR NONE) (ACTION)
+/npc action add (NPC NAME) (TRUE/FALSE - CONSOLE) (PERMISSIONS OR NONE) (ACTION)
 ```
 
 On (ACTION) you can put these options. Without `()` please.
@@ -36,7 +36,7 @@ On (ACTION) you can put these options. Without `()` please.
 ### Getting actions setted
 
 ```
-/npc action (NPC NAME) list
+/npc action list (NPC NAME)
 ```
 
 ![/npc action npc1 list](<../../.gitbook/assets/image (2).png>)
@@ -46,7 +46,7 @@ On (ACTION) you can put these options. Without `()` please.
 To remove the action added before, use the command below.
 
 ```
-/npc action (NPC NAME) remove (ACTION ID)
+/npc action remove (NPC NAME) (ACTION ID)
 ```
 
 ![/npc action npc1 list](<../../.gitbook/assets/image (1).png>)
