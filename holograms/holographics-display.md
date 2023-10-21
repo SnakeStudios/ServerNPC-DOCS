@@ -8,7 +8,9 @@ description: How to use HolographicsDisplay with ServerNPC and PlaceholderAPI
 
 First, see how to setup the hologram system!
 
-{% page-ref page="holograms-installation/" %}
+{% content-ref url="holograms-installation/" %}
+[holograms-installation](holograms-installation/)
+{% endcontent-ref %}
 
 Once everything is installed, let's continue!
 
@@ -28,7 +30,7 @@ EXAMPLE:
 {% endtab %}
 
 {% tab title="REMOVE COMMAND" %}
-```text
+```
 COMMAND:
 /npc holo {npc name} remove {id}
 
@@ -38,22 +40,22 @@ EXAMPLE:
 {% endtab %}
 
 {% tab title="LIST HOLOS" %}
-```text
+```
 /npc holo {npcName} list
 ```
 {% endtab %}
 {% endtabs %}
 
-![See the beautiful NPC](../.gitbook/assets/image%20%281%29.png)
+![See the beautiful NPC](<../.gitbook/assets/image (6).png>)
 
 ### Add placeholder to Holograms
 
 To update placeholders you need this placeholders before the message.
 
-* {fastest} - 0.1 seconds. 
-* {fast} - 0.5 seconds 
-* {medium} - 1 seconds 
-* {slow} - 5 seconds 
+* {fastest} - 0.1 seconds.&#x20;
+* {fast} - 0.5 seconds&#x20;
+* {medium} - 1 seconds&#x20;
+* {slow} - 5 seconds&#x20;
 * {slowest} - 10 seconds.
 
 In this case, i'm using the **{medium}** placeholder.
@@ -70,7 +72,6 @@ EXAMPLE:
 {% endtab %}
 {% endtabs %}
 
-![/npc holo npc1 add {medium}Hello &amp;e%player\_name%](../.gitbook/assets/image%20%2817%29.png)
+![/npc holo npc1 add {medium}Hello \&e%player\_name%](<../.gitbook/assets/image (8).png>)
 
-![And here ya go.](../.gitbook/assets/image%20%283%29.png)
-
+![And here ya go.](<../.gitbook/assets/image (3).png>)

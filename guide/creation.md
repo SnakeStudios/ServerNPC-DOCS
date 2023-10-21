@@ -20,7 +20,7 @@ To create a NPC with Mojang name it's very very simple.
 /npc create test1 iSnakeBuzz\_
 {% endhint %}
 
-If you typed this command, you will notice the NPC has spawned with my skin, but you can change my name \(iSnakeBuzz\_\) for anyone name.
+If you typed this command, you will notice the NPC has spawned with my skin, but you can change my name (iSnakeBuzz\_) for anyone name.
 
 {% hint style="danger" %}
 Only if the name it's a Premium account, if not, it will be appear as a Steve.
@@ -28,14 +28,14 @@ Only if the name it's a Premium account, if not, it will be appear as a Steve.
 
 ## Mineskin
 
-> **MineSkin.org** allows you to generate **skin texture data** signed by Mojang.  
-> These can be used on ingame skull blocks or to change a player's skin using some packet magic :\).
+> **MineSkin.org** allows you to generate **skin texture data** signed by Mojang.\
+> These can be used on ingame skull blocks or to change a player's skin using some packet magic :).
 
 Said by Mineskin.
 
 It allow you to upload Skins without needing a Minecraft Account. Well, you can use the generated IDS in ServerNPC to create fantastics NPCs.
 
-![](../.gitbook/assets/image%20%285%29%20%282%29%20%282%29.png)
+![](<../.gitbook/assets/image (5) (1).png>)
 
 {% hint style="info" %}
 /npc create test2 420161720
@@ -49,7 +49,7 @@ Well, to use this you need [PlaceholderAPI](https://www.spigotmc.org/resources/p
 
 First of all you need to install the `Player` extension to continue.
 
-```text
+```
 /papi ecloud download Player
 /papi reload
 ```
@@ -61,4 +61,3 @@ Execute both commands to a correct installation of the extension. Then we can co
 {% endhint %}
 
 Well, that very easy, if you don't see your Skin, probably you are a cracked player, at the moment we are working on a fix to work with SkinsRestorer but do not have a estimated time for that.
-
