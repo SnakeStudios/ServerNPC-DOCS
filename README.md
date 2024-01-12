@@ -16,7 +16,7 @@ description: Official Wiki Page for ServerNPC plugin.
 * Spigot and **PaperSpigot** Support.
 * Allowed **Mineskin.org** skins.
 * Send **messages** to player when click.
-* **HolographicDisplay** Support.
+* **DecentHolograms** Support.
 * NPC execute **console** commands.
 * **PlaceholderAPI** Skin names **Support**.
 * NPC With **self skin** view.
@@ -24,4 +24,5 @@ description: Official Wiki Page for ServerNPC plugin.
 * **CMI** Support.
 * **TrHologram** Support.
 * Support **Holograms** by **SainttX**.
+* HexColors using \&#f20202
 
