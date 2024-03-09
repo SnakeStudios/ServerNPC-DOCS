@@ -6,6 +6,8 @@ description: >-
 
 # Repositories
 
+For optimal performance, I recommend using the latest version of the plugin. The API is designed to be compatible with the corresponding version of the plugin.
+
 #### For gradle
 
 ```gradle
