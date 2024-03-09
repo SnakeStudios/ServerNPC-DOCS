@@ -1,21 +1,21 @@
 # Table of contents
 
-* [Home](README.md)
+* [😃 Home](README.md)
 * [Getting Started](installation.md)
 
-## GUIDE
+## 🗺️ GUIDE
 
 * [Creation](guide/creation.md)
 * [Actions](guide/actions/README.md)
   * [Labymod Emotes](guide/actions/labymod-emotes.md)
 * [Magic Wand](guide/magic-wand.md)
 
-## COMMANDS
+## ⚙️ COMMANDS
 
 * [Actions](commands/actions.md)
 * [Permissions](commands/permissions.md)
 
-## Holograms
+## 🌐 Holograms
 
 * [Holograms Installation](holograms/holograms-installation/README.md)
   * [TrHolograms](holograms/holograms-installation/trholograms.md)
