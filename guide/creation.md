@@ -33,19 +33,25 @@ Only if the name it's a Premium account, if not, it will be appear as a Steve.
 
 Said by Mineskin.
 
-It allow you to upload Skins without needing a Minecraft Account. Well, you can use the generated IDS in ServerNPC to create fantastics NPCs.
+It allows you to upload Skins without needing a Minecraft Account. Well, you can use the generated IDS in ServerNPC to create fantastic NPCs.
 
 ![](<../.gitbook/assets/image (5) (1).png>)
 
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
 {% hint style="info" %}
 /npc create test2 420161720
+{% endhint %}
+
+{% hint style="success" %}
+/npc create test2 [https://minesk.in/1ecaf3f7322340e4871c9cd541f4aaa6](https://minesk.in/1ecaf3f7322340e4871c9cd541f4aaa6)
 {% endhint %}
 
 And done, you've created a NPC with Mineskin. Very simple, right?
 
 ## Self Skin
 
-Well, to use this you need [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed in your Server. If you don't know what it is, I fully recommend you to read the official page. But simplifying that, it's a library of placeholders.
+Well, to use this, you need [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed in your Server. If you don't know what it is, I fully recommend you to read the official page. But simplifying that, it's a library of placeholders.
 
 First of all you need to install the `Player` extension to continue.
 
