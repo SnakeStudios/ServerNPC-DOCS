@@ -18,8 +18,8 @@
 ## 🌐 Holograms
 
 * [Holograms Installation](holograms/holograms-installation/README.md)
-  * [TrHolograms](holograms/holograms-installation/trholograms.md)
-  * [Holographics Display](holograms/holograms-installation/holographics-display.md)
+  * [DecentHolograms](holograms/holograms-installation/trholograms.md)
+  * [TrHolograms](holograms/holograms-installation/trholograms-1.md)
 * [Holograms Usage](holograms/holographics-display.md)
 
 ## 👨‍💻 Developers

@@ -8,7 +8,10 @@ description: Setting up hologram system.
 
 Download and install [PlaceholderAPI](https://www.spigotmc.org/resources/6245/) to enable **Placeholders** like `%player_name%`
 
-{% page-ref page="trholograms.md" %}
+{% content-ref url="trholograms.md" %}
+[trholograms.md](trholograms.md)
+{% endcontent-ref %}
 
-{% page-ref page="holographics-display.md" %}
-
+{% content-ref url="trholograms-1.md" %}
+[trholograms-1.md](trholograms-1.md)
+{% endcontent-ref %}
