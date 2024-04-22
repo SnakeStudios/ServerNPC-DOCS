@@ -4,9 +4,9 @@ description: Official Wiki Page for ServerNPC plugin.
 
 # 😃 Home
 
-![](https://proxy.spigotmc.org/90d8fd85ab44204487d328269abdb92eabda2469?url=https%3A%2F%2Fi.imgur.com%2FeYdzeFh.png)
+![](.gitbook/assets/ServerNPC.png)
 
-![](https://proxy.spigotmc.org/8dae1415437bb46e92f931675a8894cf8e80d975?url=https%3A%2F%2Fi.imgur.com%2FuM0bicx.png)
+### All features
 
 * NPC without **nametag**.
 * Integrated **holograms**.
