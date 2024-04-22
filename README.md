@@ -2,7 +2,7 @@
 description: Official Wiki Page for ServerNPC plugin.
 ---
 
-# Home
+# 😃 Home
 
 ![](https://proxy.spigotmc.org/90d8fd85ab44204487d328269abdb92eabda2469?url=https%3A%2F%2Fi.imgur.com%2FeYdzeFh.png)
 
